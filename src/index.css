@@ -99,6 +99,29 @@ main,
 .section {
   position: relative;
   padding-block: var(--section-pad);
+  /* anchor jumps land below the fixed nav */
+  scroll-margin-top: 4.5rem;
+}
+
+/* keyboard users need a visible focus ring (custom cursor hides the pointer) */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 .eyebrow {

@@ -213,6 +213,13 @@ export default function Background3D() {
   const scroll = useRef(0);
   const mouse = useRef({ x: 0, y: 0 });
 
+  // lighter scene on small/touch screens: fewer objects, lower resolution
+  const isMobile = useMemo(
+    () => window.matchMedia("(max-width: 768px), (pointer: coarse)").matches,
+    [],
+  );
+  const floaters = isMobile ? FLOATERS.slice(0, 5) : FLOATERS;
+
   return (
     <div
       style={{
@@ -227,9 +234,9 @@ export default function Background3D() {
       aria-hidden
     >
       <Canvas
-        dpr={[1, 1.5]}
+        dpr={isMobile ? [0.75, 1] : [1, 1.5]}
         camera={{ position: [0, 0, 2], fov: 60 }}
-        gl={{ antialias: true, alpha: true }}
+        gl={{ antialias: true, alpha: true, preserveDrawingBuffer: true }}
         onCreated={({ gl }) => {
           gl.setClearColor(0x000000, 0);
 
@@ -249,7 +256,7 @@ export default function Background3D() {
         }}
       >
         <Rig mouse={mouse} />
-        {FLOATERS.map((spec, i) => (
+        {floaters.map((spec, i) => (
           <Floater key={i} spec={spec} scroll={scroll} mouse={mouse} />
         ))}
         <Particles scroll={scroll} />
