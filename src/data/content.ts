@@ -3,12 +3,10 @@
 export const profile = {
   name: "Jinmok",
   role: "Game Developer",
-  tagline: "코드와 비주얼로 아이디어를 만듭니다.",
+  tagline: "진목아 진목아~ 왜요 쌤 왜요 쌤~",
   location: "Seoul, South Korea",
   email: "jinmok0317@gmail.com",
-  about: `안녕하세요, 게임과 인터랙티브 경험을 만드는 것을 좋아하는 개발자입니다. C/C++와 언리얼 엔진으로
-게임을 만들고, 포토샵·일러스트레이터·애프터이펙트로 비주얼 작업까지 직접 다룹니다. 코드와
-비주얼 양쪽을 오가며 아이디어를 실제로 눈에 보이는 결과물로 만드는 과정을 즐깁니다.`,
+  about: `빰빰 빠람~ 빰빰빰 빠라밤~`,
   highlights: [
     { label: "Years Coding", value: "3+" },
     { label: "Projects Shipped", value: "10+" },
@@ -26,83 +24,82 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "개발 야호~",
     description:
-      "프로젝트에 대한 간단한 설명을 여기에 적어주세요. 어떤 문제를 해결했는지, 어떤 기술을 썼는지 한두 문장으로 요약합니다.",
+      "프로젝트를 변기에 넣고 내려",
     tags: ["React", "TypeScript", "Node.js"],
     link: "#",
     repo: "#",
   },
   {
-    title: "Project Two",
+    title: "야르~",
     description:
-      "두 번째 프로젝트 설명입니다. 실제 작업물로 교체해주세요.",
+      "나는 사실상 개발자가 아니라 애기다 애기",
     tags: ["Next.js", "Tailwind"],
     link: "#",
     repo: "#",
   },
   {
-    title: "Project Three",
+    title: "눈치는 안보기 That's red, red~",
     description:
-      "세 번째 프로젝트 설명입니다. 링크와 레포지토리 주소도 함께 채워주세요.",
+      "오늘 자기 전에 생각 많이 날 거야",
     tags: ["Python", "FastAPI"],
     link: "#",
     repo: "#",
   },
 ];
 
-// level: 1~5. 실제 숙련도에 맞게 자유롭게 조정하세요.
 export type Skill = { name: string; level: number };
 
 export const skills: { category: string; items: Skill[] }[] = [
   {
     category: "Languages",
     items: [
-      { name: "C", level: 4 },
-      { name: "C++", level: 5 },
-      { name: "TypeScript", level: 4 },
-      { name: "JavaScript", level: 4 },
-      { name: "Python", level: 3 },
-      { name: "Java", level: 3 },
+      { name: "C", level: 1 },
+      { name: "C++", level: 1 },
+      { name: "TypeScript", level: 1 },
+      { name: "JavaScript", level: 1 },
+      { name: "Python", level: 1 },
+      { name: "Java", level: 1 },
     ],
   },
   {
     category: "Game Dev",
-    items: [{ name: "Unreal Engine", level: 5 }],
+    items: [{ name: "Unreal Engine", level: 1 }],
   },
   {
     category: "Frontend",
     items: [
-      { name: "React", level: 4 },
-      { name: "Next.js", level: 3 },
-      { name: "Vite", level: 3 },
-      { name: "Tailwind CSS", level: 4 },
+      { name: "React", level: 1 },
+      { name: "Next.js", level: 1 },
+      { name: "Vite", level: 1 },
+      { name: "Tailwind CSS", level: 1 },
     ],
   },
   {
     category: "Backend",
     items: [
-      { name: "Node.js", level: 3 },
-      { name: "Express", level: 3 },
-      { name: "FastAPI", level: 2 },
-      { name: "PostgreSQL", level: 2 },
+      { name: "Node.js", level: 1 },
+      { name: "Express", level: 1 },
+      { name: "FastAPI", level: 1 },
+      { name: "PostgreSQL", level: 1 },
     ],
   },
   {
     category: "Creative Tools",
     items: [
-      { name: "Photoshop", level: 3 },
-      { name: "Illustrator", level: 3 },
-      { name: "After Effects", level: 3 },
+      { name: "Photoshop", level: 1 },
+      { name: "Illustrator", level: 1 },
+      { name: "After Effects", level: 1 },
     ],
   },
   {
     category: "Tools",
     items: [
-      { name: "Git", level: 4 },
-      { name: "Docker", level: 2 },
-      { name: "Figma", level: 3 },
-      { name: "Notion", level: 4 },
+      { name: "Git", level: 1 },
+      { name: "Docker", level: 1 },
+      { name: "Figma", level: 1 },
+      { name: "Notion", level: 1 },
     ],
   },
 ];
