@@ -70,7 +70,7 @@ export const skills: { category: string; items: string[] }[] = [
 ];
 
 export const socials = [
-  { label: "GitHub", href: "https://github.com/jinmok0317" },
+  { label: "GitHub", href: "https://github.com/jinmok0317-hue" },
   { label: "Email", href: "mailto:jinmok0317@gmail.com" },
   { label: "LinkedIn", href: "#" },
 ];

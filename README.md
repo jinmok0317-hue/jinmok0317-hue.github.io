@@ -1,4 +1,4 @@
-# jinmok0317.github.io
+# jinmok0317-hue.github.io
 
 Jinmok의 포트폴리오 사이트. React + Vite + TypeScript + Framer Motion.
 
@@ -15,9 +15,9 @@ npm run dev
 
 ## 배포 (GitHub Pages)
 
-이 저장소를 GitHub에 올린 뒤, 저장소 **Settings → Pages → Build and deployment → Source** 를 **GitHub Actions**로 설정하세요. `main` 브랜치에 push할 때마다 `.github/workflows/deploy.yml`이 자동으로 빌드하고 `https://jinmok0317.github.io`에 배포합니다.
+이 저장소를 GitHub에 올린 뒤, 저장소 **Settings → Pages → Build and deployment → Source** 를 **GitHub Actions**로 설정하세요. `main` 브랜치에 push할 때마다 `.github/workflows/deploy.yml`이 자동으로 빌드하고 `https://jinmok0317-hue.github.io`에 배포합니다.
 
 ```bash
-git remote add origin https://github.com/jinmok0317/jinmok0317.github.io.git
+git remote add origin https://github.com/jinmok0317-hue/jinmok0317-hue.github.io.git
 git push -u origin main
 ```
