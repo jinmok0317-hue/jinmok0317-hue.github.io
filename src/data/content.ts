@@ -26,15 +26,15 @@ export const projects: Project[] = [
   {
     title: "개발 야호~",
     description:
-      "프로젝트를 변기에 넣고 내려",
+      "프로젝트를 변기에 넣고서 내려",
     tags: ["React", "TypeScript", "Node.js"],
     link: "#",
     repo: "#",
   },
   {
-    title: "야르~",
+    title: "냐냐냥!!!!",
     description:
-      "나는 사실상 개발자가 아니라 애기다 애기",
+      "나는 사실상 개발자가 아니라 개발이다 개발",
     tags: ["Next.js", "Tailwind"],
     link: "#",
     repo: "#",
