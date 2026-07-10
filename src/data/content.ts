@@ -1,7 +1,7 @@
 // 여기 있는 값들만 수정하면 사이트 전체 내용이 바뀝니다.
 
 export const profile = {
-  name: "Jinmok",
+  name: "하지 마시고",
   role: "Game Developer",
   tagline: "진목아 진목아~ 왜요 쌤 왜요 쌤~",
   location: "Seoul, South Korea",

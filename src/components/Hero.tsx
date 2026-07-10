@@ -31,7 +31,7 @@ export default function Hero() {
           </motion.p>
 
           <h1 className="hero-title">
-            <motion.span variants={item}>Hi, I'm</motion.span>
+            <motion.span variants={item}>나를 모르냐.</motion.span>
             <motion.span className="accent" variants={item}>
               {profile.name}
             </motion.span>
